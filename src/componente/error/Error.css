@@ -1,0 +1,14 @@
+.error{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error-contenedor{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px;
+    background-color: red;
+    padding: 10px 5px;
+    color: white;
+}

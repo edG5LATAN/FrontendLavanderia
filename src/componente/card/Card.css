@@ -1,0 +1,50 @@
+.card{
+  width: 300px;
+  background-color: rgba(128, 128, 128, 0.863);
+  height:fit-content;
+  border-radius: 10px;
+  box-shadow: 5px 7px 5px 1px;
+  height: 280px;
+  padding: 9px 5px;
+  margin: 15px;
+  
+}
+.card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.card-img{
+  border-radius: 5px;
+}
+.card h3{
+  color: white;
+  font-size: 22px;
+}
+.card p{
+  text-align: justify;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+}
+@media (max-width:480px) {
+  .card{
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.863);
+    height:fit-content;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px 1px;
+    height: auto;
+    padding: 9px 5px;
+    margin: 15px;
+    
+  }
+  .card h3{
+    color: white;
+    font-size: 20px;
+  }
+  .card p{
+    font-size: 14px;
+    text-align: justify;
+    padding: 3px 8px;
+    color: rgb(255, 255, 255);
+  }
+}

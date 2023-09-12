@@ -1,0 +1,38 @@
+.home2{
+   padding: 20px 0;
+
+}
+.banco_bac{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 40px;
+}
+.home2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.parrafo{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin: 10px 30px;
+  padding: 15px 5px;
+  font-weight: bolder;
+  background-color: gray;
+  border-radius: 10px;
+}
+@media (max-width:480px) {
+  .banco_bac{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+   padding: 0;
+   margin: 0;
+  }
+  .parrafo{
+    font-size: 18px;
+  }
+}

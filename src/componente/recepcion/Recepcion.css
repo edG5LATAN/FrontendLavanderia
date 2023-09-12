@@ -1,0 +1,25 @@
+.recepcion{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recepcion-contenedor{
+  width: 60%;
+  box-shadow: 4px 4px 4px 5px;
+  border-radius: 10px;
+  padding: 15px 0;
+  box-sizing: border-box;
+
+}
+.recepcion-botones{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px 0;
+}
+@media (max-width:480px) {
+  .recepcion-contenedor{
+    width: 90%;
+    box-shadow: 3px 3px 3px ;
+  }
+}

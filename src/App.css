@@ -1,8 +1,10 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .App {
   text-align: center;
+  background-image:url('./../public/img/fondo.jpg') ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  overflow: hidden;
 }
+
+

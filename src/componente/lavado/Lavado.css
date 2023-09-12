@@ -1,0 +1,32 @@
+.lavado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.lavado-contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  padding: 20px 0;
+}
+@media (max-width:480px) {
+  .lavado h2{
+    font-size: 14px;
+  }
+  .lavado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lista-contenedor{
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: none;
+  padding: 0;
+  }
+}

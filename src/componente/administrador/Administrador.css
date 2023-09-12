@@ -1,0 +1,21 @@
+.administrador{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-administrador{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.contenedor-administrador table{
+    border-collapse: collapse;
+}
+.contenedor-administrador thead td{
+    background-color: black;
+    color: white;
+}

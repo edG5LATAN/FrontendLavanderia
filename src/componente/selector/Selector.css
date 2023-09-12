@@ -1,0 +1,23 @@
+.selector{
+  width: 90%;
+  padding: 9px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+  box-sizing: border-box;
+  text-align: center;
+}
+@media (max-width:480px){
+  .selector{
+    width: 90%;
+    padding: 3px 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 0;
+    
+  }
+  option{
+    font-size: 13px;
+  }
+}

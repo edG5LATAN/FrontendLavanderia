@@ -1,0 +1,28 @@
+.cliente{
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.cliente-contenedor{
+  width: 60%;
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 4px 4px 5px 3px;
+  border-radius: 10px;
+}
+.mostrar{
+  background-color: blue;
+}
+@media (max-width:480px) {
+  .cliente{
+    height: 500px;
+    }
+  .cliente-contenedor{
+    width: 90%;
+    border: 1px solid black;
+    padding: 15px;
+    box-shadow: 3px 3px 3px ;
+    border-radius: 10px;
+  }
+}

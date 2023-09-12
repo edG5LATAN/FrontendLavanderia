@@ -1,0 +1,106 @@
+{
+  "cliente": [
+    {
+      "id": "1",
+      "nombre": "escarleth rodriguez",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    },
+    {
+      "id": "2",
+      "nombre": "milgaro flores",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    },
+    {
+      "id": "3",
+      "nombre": "yulissa cardenas",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    },
+    {
+      "id": "4",
+      "nombre": "ermelinda baquedano",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    },
+    {
+      "id": "5",
+      "nombre": "miley argentina",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    },
+    {
+      "id": "6",
+      "nombre": "tania sugey",
+      "telefono": "987567",
+      "fecha": "2023-09-05",
+      "peso": "20lbs",
+      "estado": "SECADO",
+      "nota": ""
+    }
+  ],
+  "usuario": [
+    {
+      "email": "recepcion@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "email": "lavado@gmail.com",
+      "pass": "1234"
+    }
+  ],
+  "publicidad": [
+    {
+      "id": "1",
+      "empresa": "Tigo",
+      "imagen": "https://theme.zdassets.com/theme_assets/13578059/7fdee4e17d8a46a48bdf82245c47bc0434000586.png",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    },
+    {
+      "id": "2",
+      "empresa": "Bac",
+      "imagen": "https://www.baccredomatic.com/themes/custom/bac_theme/images/logo.png",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    },
+    {
+      "id": "3",
+      "empresa": "BanRural",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nuevo_Logo_Banrural.png",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    },
+    {
+      "id": "4",
+      "empresa": "Banco Atlantidad",
+      "imagen": "https://www.cahda.org/wp-content/uploads/2017/02/cahda_web_02-1110x550.png",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    },
+    {
+      "id": "5",
+      "empresa": "Banco Trabajadores",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r5r_csK8Lw0tivYQ85IzcPbWrEpX4T5ndpc-mHK7Rim5Dp9y1Wu95Td-HB2Ad7KTXjQ&usqp=CAU",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    },
+    {
+      "id": "63db35db-8603-4b0a-b943-53dcb18ea07a",
+      "empresa": "edwin",
+      "imagen": "https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-800x419.jpg",
+      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+    }
+  ]
+}
