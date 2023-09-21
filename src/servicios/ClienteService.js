@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const CLIENTE_BD="https://apiecocleanlavanderia.onrender.com/cliente";
+ const CLIENTE_BD="https://apiecocleanlavanderia.onrender.com/cliente";
+//   const CLIENTE_BD ="http://localhost:3000/cliente"
+
 
 class ClienteService{
   

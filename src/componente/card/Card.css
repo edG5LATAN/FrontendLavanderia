@@ -27,14 +27,14 @@
 }
 @media (max-width:480px) {
   .card{
-    width: 200px;
+    width: 180px;
     background-color: rgba(128, 128, 128, 0.863);
     height:fit-content;
     border-radius: 10px;
     box-shadow: 5px 7px 5px 1px;
-    height: auto;
-    padding: 9px 5px;
-    margin: 15px;
+    height: 300px;
+    padding: 9px 3px;
+    margin: 10px;
     
   }
   .card h3{

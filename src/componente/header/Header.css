@@ -43,11 +43,12 @@
 @media (max-width:480px) {
   .header{
     justify-content: space-between;
+    padding-left: 10px;
   }
   .header1{
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 20%;
   }
   .header1 img{
     width: 99%;
@@ -62,18 +63,23 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 85%;
+    width: 80%;
   }
   .header2 ul{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:1em;
+    gap:0;
     padding: 0;
     margin: 0;
   }
-
-
+  a{
+    color:white
+  }
+  a:active{
+    color: blue;
+    background-color: none;
+  }
   
 }

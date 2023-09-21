@@ -10,15 +10,6 @@
       "nota": ""
     },
     {
-      "id": "2",
-      "nombre": "milgaro flores",
-      "telefono": "987567",
-      "fecha": "2023-09-05",
-      "peso": "20lbs",
-      "estado": "SECADO",
-      "nota": ""
-    },
-    {
       "id": "3",
       "nombre": "yulissa cardenas",
       "telefono": "987567",
@@ -79,7 +70,7 @@
       "enlace": "https://www.facebook.com/profile.php?id=100052131446055&sk=about"
     },
     {
-       "id": "3",
+      "id": "3",
       "empresa": "Telefonos",
       "imagen": "https://www.fayerwayer.com/resizer/mOlBpkJsjvmMfN5KPzKYRXYaxmw=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/6CJPKMIJVZBXVIJH77NPKZJZZY.jpg",
       "enlace": "https://www.facebook.com/profile.php?id=100052131446055"
@@ -95,7 +86,8 @@
       "empresa": "Salco",
       "imagen": "https://salcohn.com/wp-content/uploads/2020/09/logo_salco_210x75.png",
       "enlace": "https://salcohn.com/"
-    },{
+    },
+    {
       "id": "6",
       "empresa": "BanRuRal",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nuevo_Logo_Banrural.png",
