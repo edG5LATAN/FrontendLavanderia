@@ -10,29 +10,31 @@ function Lista({setError}) {
   const navigate=useNavigate()
 
   useEffect(() => {
-    cargarLista()
+  
+     cargarLista()
   },[])
 
   const cargarLista=()=>{
     ClienteService.getAllCliente()
-    .then(res=>setcliente(res.data))
+    .then(res=>{
+      setcliente(res.data)})
     .catch(error=>console.log(error))
   }
 
   const eliminar=(e)=>{
     const id=e.target.id
-    ClienteService.deleteCliente(id)
+    ClienteService.deletCliente(id)
     .then(res=>{
       const msj={
-        "titulo":"Eliminado",
-        "mensaje":"Eliminado correctamente",
-        "regresar":"lista",
-        "color":"red"
-      }
-      setError(msj)
-      navigate('/error')
-    })
-    .catch(error=>console.log(error))
+            "titulo":"Eliminado",
+            "mensaje":"Eliminado correctamente",
+            "regresar":"lista",
+            "color":"red"
+          }
+          setError(msj)
+          navigate('/error')
+    }).catch(error=>console.log(error))
+  
   }
 
   return (

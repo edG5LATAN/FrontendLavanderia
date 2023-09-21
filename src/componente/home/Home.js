@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../home/Home.css'
 import Boton from '../boton/Boton'
 import { Link } from 'react-router-dom'
 
 function Home() {
+
   return (
     <div className='home'>
       <div className='home-card'>

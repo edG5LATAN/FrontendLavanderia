@@ -12,8 +12,8 @@ function Selector({estado,setestado}) {
     setestado(e.target.value)
   }
   return (
-    <select value={estado} defaultValue='' onChange={cambio} className='selector'>
-      <option value="Estado" hidden selected="none">Estado</option>
+    <select value={estado}  onChange={cambio} className='selector'>
+      <option value=''hidden disabled>Estado</option>
       {
         opciones.map((dat,index)=>{
           return<option key={index}>{dat}</option>

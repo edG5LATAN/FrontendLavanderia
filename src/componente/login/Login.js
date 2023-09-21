@@ -40,7 +40,7 @@ function Login({setError}) {
   return (
     <div className='login'>
       <form className='login_contenedor' onSubmit={datosInput}>
-         <label for="login">Login</label>
+         <label>Login</label>
          <Input required placeholder="Ingrese correo" type="email" value={nombre} setvalue={setnombre}/>
          <Input required placeholder="Ingrese password" type="password" value={pass} setvalue={setpass}/>
          <Boton nombre="Login" type="submit"/>

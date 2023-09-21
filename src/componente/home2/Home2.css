@@ -24,6 +24,9 @@
   border-radius: 10px;
 }
 @media (max-width:480px) {
+  .home2{
+    height: 600px;
+  }
   .banco_bac{
     display: flex;
     justify-content: space-evenly;

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const CLIENTE_BD="http://localhost:3000/cliente";
+const CLIENTE_BD="https://apiecocleanlavanderia.onrender.com/cliente";
 
 class ClienteService{
   
@@ -11,13 +11,13 @@ class ClienteService{
       return axios.post(CLIENTE_BD,cliente);
    }
    deletCliente(id){
-      return axios.delete(CLIENTE_BD+'/'+id);
+      return axios.delete(CLIENTE_BD+`/${id}`)
    }
    getClienteById(id){
-      return axios.get(CLIENTE_BD+'/'+id)
+      return axios.get(CLIENTE_BD+`/${id}`)
    }
    updateCliente(id,cliente){
-      return axios.put(CLIENTE_BD+'/'+id,cliente)
+      return axios.patch(CLIENTE_BD+`/${id}`, cliente)
    }
 }
 

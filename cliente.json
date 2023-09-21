@@ -68,39 +68,38 @@
   "publicidad": [
     {
       "id": "1",
-      "empresa": "Tigo",
-      "imagen": "https://theme.zdassets.com/theme_assets/13578059/7fdee4e17d8a46a48bdf82245c47bc0434000586.png",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+      "empresa": "Bac",
+      "imagen": "https://www.baccredomatic.com/themes/custom/bac_theme/images/logo.png",
+      "enlace": "https://www.facebook.com/messages/t/152450335604692"
     },
     {
       "id": "2",
-      "empresa": "Bac",
-      "imagen": "https://www.baccredomatic.com/themes/custom/bac_theme/images/logo.png",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+      "empresa": "Tecnicare",
+      "imagen": "https://scontent.ftgu1-3.fna.fbcdn.net/v/t1.6435-9/55439595_2118707018246746_4658889521486626816_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=HD-fPD7gPZUAX_nB1uP&_nc_oc=AQkWokgoazMJwkEEIHiw0H09ZdprPuUOjS3vrxO0fZp7oIIVf_e4hHmV3Z-XYEKczLA&_nc_ht=scontent.ftgu1-3.fna&oh=00_AfAd1HdLTSMb8nLoNrJjRSDgAx1CYUkl4bmy8wXNsl47NQ&oe=6533E67F",
+      "enlace": "https://www.facebook.com/profile.php?id=100052131446055&sk=about"
     },
     {
-      "id": "3",
-      "empresa": "BanRural",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nuevo_Logo_Banrural.png",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+       "id": "3",
+      "empresa": "Telefonos",
+      "imagen": "https://www.fayerwayer.com/resizer/mOlBpkJsjvmMfN5KPzKYRXYaxmw=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/6CJPKMIJVZBXVIJH77NPKZJZZY.jpg",
+      "enlace": "https://www.facebook.com/profile.php?id=100052131446055"
     },
     {
       "id": "4",
-      "empresa": "Banco Atlantidad",
-      "imagen": "https://www.cahda.org/wp-content/uploads/2017/02/cahda_web_02-1110x550.png",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+      "empresa": "Dell",
+      "imagen": "https://www.dellrefurbished.com/mas_assets/theme/dell_refurbished/logo.png",
+      "enlace": "https://salcohn.com/"
     },
     {
       "id": "5",
-      "empresa": "Banco Trabajadores",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r5r_csK8Lw0tivYQ85IzcPbWrEpX4T5ndpc-mHK7Rim5Dp9y1Wu95Td-HB2Ad7KTXjQ&usqp=CAU",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
-    },
-    {
-      "id": "63db35db-8603-4b0a-b943-53dcb18ea07a",
-      "empresa": "edwin",
-      "imagen": "https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-800x419.jpg",
-      "enlace": "https://edg5latan.github.io/PortafolioG5/"
+      "empresa": "Salco",
+      "imagen": "https://salcohn.com/wp-content/uploads/2020/09/logo_salco_210x75.png",
+      "enlace": "https://salcohn.com/"
+    },{
+      "id": "6",
+      "empresa": "BanRuRal",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nuevo_Logo_Banrural.png",
+      "enlace": "https://www.facebook.com/messages/t/152450335604692"
     }
   ]
 }

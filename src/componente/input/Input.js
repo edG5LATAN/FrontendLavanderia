@@ -4,7 +4,9 @@ import './Input.css'
 function Input({readOnly,type,placeholder,required,value,setvalue}) {
 
   const cambio=(e)=>{
-     setvalue(e.target.value)
+    const valor= e.target.value
+     
+       setvalue(valor)
   }
 
   return (

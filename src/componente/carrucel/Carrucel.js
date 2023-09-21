@@ -1,25 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Slider from "react-slick";
 import './Carrucel.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import PublicidadService from '../../servicios/PublicidadServices.js'
 
 
-function Carrucel() {
+function Carrucel({actualizar, publicidad}) {
 
-  const [publicidad,setpublicidad]=useState([])
   
-  useEffect(() => {
-  cargarDatos()
-  }, [])
-
-  const cargarDatos=()=>{
-    PublicidadService.getAllPublicidad()
-    .then(res=>{
-     setpublicidad(res.data)
-    }).catch(error=>console.log(error))
-  }
   
   
   const settings = {

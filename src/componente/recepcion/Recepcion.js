@@ -34,7 +34,7 @@ function Recepcion() {
     }
     ClienteService.postCliente(cliente)
       .then(response=>{
-        console.log(response.data)
+        // console.log(response.data)
         navigate('/lista')})
       .catch(error=>console.log(error))
 

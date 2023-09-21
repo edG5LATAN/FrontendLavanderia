@@ -5,11 +5,13 @@ import Boton from '../boton/Boton'
 import PublicidadService from '../../servicios/PublicidadServices.js'
 import { useNavigate } from 'react-router-dom'
 import { v4 as uuidv4} from 'uuid'
+import PublicidadServices from '../../servicios/PublicidadServices.js'
 
 
 
-function Administrador({setError}) {
+function Administrador({setError, actualizar}) {
 
+  const [actualizarPublicidad,setActualizarPublicidad]=useState(true)
     const [empresa,setempresa]=useState("")
     const [imagen,setimagen]=useState("")
     const [enlace,setenlace]=useState("")
@@ -19,7 +21,7 @@ function Administrador({setError}) {
   
     useEffect(() => {
     cargarDatos()
-    },[])
+    },[actualizarPublicidad])
   
     const cargarDatos=()=>{
       PublicidadService.getAllPublicidad()
@@ -39,20 +41,39 @@ function Administrador({setError}) {
     }
     PublicidadService.postPublicidad(data)
     .then(res=>{
+      const msj={
+        "titulo":"Creado",
+        "mensaje":"se creo nueva publicidad",
+        "regresar":"administrador",
+        "color":"green"
+      }
+      setError(msj)
+      navigate('/error')
        cargarDatos()
+       actualizar()
     }).catch(error=>console.log(error))
 
   }
 
 
 const eliminar=(e)=>{
-  let id=e.target.id
+  const id=e.target.id
+
   PublicidadService.deletePublicidad(id)
   .then(res=>{
-    console.log(res)
+      const msj={
+      "titulo":"Eliminar",
+      "mensaje":"se elimino una publicidad",
+      "regresar":"administrador",
+      "color":"green"
+    }
+    setError(msj)
     navigate('/error')
+    actualizar()
     cargarDatos()
-  }).catch(error=>console.log(error))
+    setActualizarPublicidad(!actualizarPublicidad)
+  })
+  .catch(error=>console.log(error))
 }
 
   return (
@@ -93,7 +114,6 @@ const eliminar=(e)=>{
         </div>
        
       </div>
-			{/* https://drive.google.com/file/d/1CclgNg9UegDAHJ0hahyuT_ILwHcdqQxP/view?usp=drive_link */}
     </div>
   )
 }
