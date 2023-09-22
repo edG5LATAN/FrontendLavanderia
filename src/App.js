@@ -50,7 +50,7 @@ function App() {
         <Route path='/login' element={ <Login setError={setMensajeError}/>}/>
         <Route path='/recepcion' element={<Recepcion />}/>
         <Route path='/lista' element={ <Lista setError={setMensajeError}/>}/>
-        <Route path='/cliente' element={<Cliente />}/>
+        <Route path='/cliente' element={<Cliente setError={setMensajeError} />}/>
         <Route path='/lavado' element={<Lavado setError={setMensajeError}/>}/>
         <Route path='/error' element={<Error error={mensajeError} />} />
        </Routes>

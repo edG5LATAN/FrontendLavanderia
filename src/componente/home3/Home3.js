@@ -24,7 +24,7 @@ function Home3() {
           <p>
             Contamos con el servicio Lavanderia
              general lavado planchada secado
-              y con entrega a domicilio de.
+              y con entrega a domicilio.
           </p>
           <h3>Servicio de Banco</h3>
           <p>
@@ -36,7 +36,7 @@ function Home3() {
           <h3>Tigo Money</h3>
           <p>
             Puedes hacer tu pagos de planes telefonicos envios 
-            de Tigo money y retiros, retiros de Money grand .
+            de Tigo money y retiros, Money grand retiros.
           </p>
         </div>
 

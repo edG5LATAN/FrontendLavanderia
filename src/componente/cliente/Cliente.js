@@ -3,10 +3,10 @@ import './Cliente.css'
 import Input from '../input/Input'
 import Boton from '../boton/Boton'
 import ClienteService from '../../servicios/ClienteService'
+import { useNavigate } from 'react-router-dom'
 
-
-function Cliente() {
-
+function Cliente({setError}) {
+  const navigate=useNavigate()
   const [cliente, setcliente] = useState([])
   const [data, setdata] = useState([])
   const [nombre, setnombre] = useState("")
@@ -28,12 +28,18 @@ function Cliente() {
       setdata(cliente.filter(res => res.nombre === nombre))
     }
     else {
-      alert("no encontrado")
+      const msj={
+        "titulo":"Error Busqueda",
+        "mensaje":"verifique mayusculas y minusculas y espacios",
+        "regresar":"cliente",
+        "color":"orange"
+      }
+      setError(msj)
+      navigate('/error')
       setdata([])
       setnombre('')
     }
   }
-
 
   //  readOnly,type,placeholder,required,value,setvalue
   return (

@@ -10,9 +10,13 @@ align-items: center;
   padding: 15px;
   box-shadow: 4px 4px 5px 3px;
   border-radius: 10px;
+
 }
 .mostrar{
   background-color: blue;
+}
+.cliente-contenedor form{
+  gap: 1em;
 }
 @media (max-width:480px) {
   .cliente{
