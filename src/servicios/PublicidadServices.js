@@ -1,6 +1,6 @@
 import axios from "axios";
 
- const PUBLICIDAD_DB="https://apiecocleanlavanderia.onrender.com/publicidad";
+const PUBLICIDAD_DB="https://apiecocleanlavanderia.onrender.com/publicidad";
  //const PUBLICIDAD_DB="http://localhost:5000/publicidad"
 
 class PublicidadService{
