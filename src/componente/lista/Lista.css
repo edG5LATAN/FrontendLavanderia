@@ -1,8 +1,10 @@
 .lista{
-  height: 600px;
+  height: auto;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 .lista-contenedor{
   padding: 10px;

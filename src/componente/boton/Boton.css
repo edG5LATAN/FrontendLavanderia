@@ -1,11 +1,12 @@
 .boton{
   width: 200px;
   padding: 8px 15px;
-  color: rgb(2, 41, 148);
+  background-color: rgb(2, 41, 148);
   font-size: 20px;
   font-weight: bold;
   border: none;
   border-radius: 5px;
+  color: white;
 }
 .boton:hover{
   cursor: pointer;
@@ -16,7 +17,7 @@
   .boton{
     width: 150px;
     padding: 4px 5px;
-    color: rgb(2, 41, 148);
+    color: white;
     font-size: 16px;
     border-radius: 5px;
   }
